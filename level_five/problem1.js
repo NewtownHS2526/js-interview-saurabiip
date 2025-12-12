@@ -10,9 +10,19 @@
 // Task: Check if guestStatus is "Connoisseur" and age is 21
 // Hint: Use if statement with && operator
 function easyProblem1(guestStatus, age) {
+    if(guestStatus === "Connoisseur" && age == 21)
+        return "can access";
+    else
+        return " go home";
+}
     // TODO: Write your code here
     // If guestStatus is "Connoisseur" AND age is 21, return "can access"
     // Otherwise, return "go home"
+function easyProblem1(guestStatus, age){
+    if(guestStatus === "Connoisseur" && age == 21)
+        return "can access";
+    else
+        return "go home";
 }
 
 // Test your code:
@@ -25,9 +35,11 @@ console.log("Easy 1 - Test 2:", easyProblem1("Connoisseur", 20)); // Should prin
 // Task: Check if age is 21 and guestStatus is NOT "Connoisseur"
 // Hint: Use if-else with !== operator
 function easyProblem2(guestStatus, age) {
+    
     // TODO: Write your code here
     // If age is 21 AND guestStatus is NOT "Connoisseur", return "can sign in"
     // Otherwise, return "go home"
+    
 }
 
 // Test your code:
